@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "f7b77a6a9009f7721a98cc7a8ea5e36548d3824d5cde7646f8c303a74487bae5",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://admanage.ai/api-docs"
+  ],
+  "id": "admanage-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Admanage MCP setup and connection checker",
+  "description": "Generate Admanage MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "admanage",
+  "appName": "Admanage",
+  "providerDocs": "https://admanage.ai/api-docs",
+  "providerWebsite": "https://admanage.ai/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.admanage.ai/api-references/tokens",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-admanage-mcp"
+}
