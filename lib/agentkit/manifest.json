@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-admanage",
+      "description": "Connect AI agents to Admanage using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-admanage/SKILL.md": "eb0c04e55d7efe02b97de970811c56499778a7dfb7de17e3c00609359d82ccce"
+  }
+}
